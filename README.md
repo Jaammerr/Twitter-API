@@ -37,7 +37,7 @@ except TwitterError as error:
 
 except IncorrectData as error:
     # Raise when validation error occurs
-    print(f"Incorrect data provided: {IncorrectData}")
+    print(f"Incorrect data provided: {error}")
 
 except RateLimitError as error:
     # Raise when rate limit exceeded
