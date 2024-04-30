@@ -9,8 +9,8 @@ pip install Jam-Twitter-API
 ## Usage
 
 ```python
-from account import TwitterAccount
-from errors import *
+from Jam_Twitter_API.account import TwitterAccount
+from Jam_Twitter_API.errors import *
 
 # Create a TwitterAccount object
 # Set up a session using auth_token or cookies (it will auto create needed headers and cookies)
