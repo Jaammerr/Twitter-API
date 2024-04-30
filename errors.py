@@ -70,12 +70,6 @@ class TwitterAccountSuspended(Exception):
     pass
 
 
-class CaptchaError(Exception):
-    """Raised when captcha solving failed"""
-
-    pass
-
-
 class RateLimitError(Exception):
     """Raised when rate limit exceeded"""
 
